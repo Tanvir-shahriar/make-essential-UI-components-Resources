@@ -4,6 +4,22 @@
     margin: 0;
     padding: 0;
 }
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 9px 13px 9px 13px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    }
 #hero{
     height: 385px;
     background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url(assets/hero-bg.png);
@@ -12,6 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 #hero .hero-content{
@@ -20,9 +37,33 @@
 #hero .hero-content .subtitle{
     color: rgb(255, 255, 255);
     font-family: Work Sans;
-    font-size: 32px;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.8;
+    margin-bottom: 14px;
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 7.5px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 28px;
+
 }
