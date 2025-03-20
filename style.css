@@ -206,4 +206,62 @@
     width: 30px;
 }
 
+/* backgorund image adding */
+#footer{
+    background-image: url(assets/social-bg.png);
+    /* image 2 */
+    /* width: 811px; */
+    height: 281px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .title{
+    margin-bottom: 10px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#footer .description{
+    margin-bottom: 30px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+
+}
+
+#footer .follow{
+    width: 100%;
+    text-align: center;
+    padding: 13px 4px 13px 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+#footer .social-media{
+    
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+    gap: 10px;
+}
+#footer .social-media img{
+    height: 30px;
+    width: 30px;
+}
+
+
     
