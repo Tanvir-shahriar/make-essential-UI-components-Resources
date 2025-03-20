@@ -143,12 +143,13 @@
     margin: 70px auto;
 }
 #about-us .about-content{
+
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 24;
-    padding: 0px;
+    padding: auto 0;
 }
 
 #about-us .back-image{
@@ -172,7 +173,7 @@
     text-align: center;
 }
 #about-us .description{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 10px;
@@ -187,7 +188,7 @@
     width: 100%;
     text-align: center;
     padding: 13px 4px 13px 4px;
-    margin-bottom: 26px;
+    margin-bottom: 12px;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(16, 16, 16, 0.2);
     border-top: 1px solid rgba(16, 16, 16, 0.2);
@@ -196,8 +197,9 @@
 #about-us .social-media{
     
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     padding: 20px 0;
+    gap: 10px;
 }
 #about-us .social-media img{
     height: 30px;
